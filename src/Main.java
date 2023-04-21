@@ -2,6 +2,8 @@
 public class Main {
 
   public static void main(String[] args) {
-    System.out.println("Hello World");
+    Person p1 = new Person("Anders And");
+    
+    System.out.println(p1);
   }
 }
